@@ -1,6 +1,7 @@
 input.onButtonPressed(Button.A, function () {
     count = 0
     basic.showString("HOOPS ARCADE!")
+    music.playMelody("C5 G B A F A C5 B ", 1000)
     basic.showIcon(IconNames.Square)
 })
 input.onButtonPressed(Button.B, function () {
