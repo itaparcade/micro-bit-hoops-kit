@@ -1,6 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     count = 0
-    basic.showString("HOOPS!")
+    basic.showString("HOOPS ARCADE!")
     basic.showIcon(IconNames.Square)
 })
 input.onPinPressed(TouchPin.P2, function () {
@@ -30,7 +30,7 @@ input.onButtonPressed(Button.B, function () {
 })
 let count = 0
 count = 0
-basic.showString("HOOPS!")
+basic.showString("HOOPS ARCADE!")
 music.playMelody("C5 G B A F A C5 B ", 1000)
 basic.showIcon(IconNames.Square)
 basic.forever(function () {
